@@ -126,6 +126,23 @@ Runtime Configuration File
 
 The Execution Provider setup package contains the Vitis AI Execution Provider runtime configuration file ``vaip_config.json``. This file is required when configuring Vitis AI Execution Provider (VAI EP) inside the ONNX Runtime code.
 
+
+Test Installation
+~~~~~~~~~~~~~~~~~
+
+To quick test this setup download this directory: <link to the directory>
+
+Run the command: 
+
+.. code-block:: 
+
+    python quickstart_resnet50_predict.py --ep ipu
+
+
+This test will take a image and run classification on IPU. On a sucessful run you will see a output like below:
+
+Copy-paste output screenshot
+
 ..
   ------------
 
