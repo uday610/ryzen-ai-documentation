@@ -239,7 +239,7 @@ For example:
      .\model_benchmark.exe -i <path_to>/Llama-3.2-1B-Instruct-awq-g128-int4-asym-fp16-onnx-hybrid -f <path_to>/prompt.txt -l "128, 256, 512, 1024, 2048" --verbose
 
  
-Note: A sample prompt file is provided in the package at `hybrid-llm-artifacts\examples\amd_genai_prompt.txt`
+**Note:** A sample prompt file is provided in the package at `hybrid-llm-artifacts\examples\amd_genai_prompt.txt`
 
 Preparing OGA Models for Hybrid Execution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
