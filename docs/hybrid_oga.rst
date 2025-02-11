@@ -74,6 +74,8 @@ Hybrid Execution of OGA Models using Python
 Setup
 @@@@@
 
+Note: This section covers the setup required for for Hybrid LLM execution, except for Deepseek models. For setup needed for Deepseek models refer to :ref:`deepseek_setup` section.
+
 1. Install Ryzen AI 1.3 according to the instructions: https://ryzenai.docs.amd.com/en/latest/inst.html
 
 2. Download and unzip the hybrid LLM artifacts package 
@@ -91,6 +93,7 @@ Setup
        cd path_to\\hybrid-llm-artifacts\onnxruntime_genai\wheel
        pip install onnxruntime_genai_directml-0.4.0.dev0-cp310-cp310-win_amd64.whl
 
+.. _deepseek_setup:
 Setup for Deepseek Models
 @@@@@@@@@@@@@@@@@@@@@@@@@
 
