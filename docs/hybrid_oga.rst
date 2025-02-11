@@ -101,7 +101,7 @@ Setup for Deepseek Models
 
 1. Download and unzip the hybrid LLM artifacts package 
 
-2. Create conda environment with Python 3.10 using the below command and activate it.
+2. Create conda environment with Python 3.10 using the below command 
 
 .. code-block:: 
     
